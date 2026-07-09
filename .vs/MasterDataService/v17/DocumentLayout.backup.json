@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\projects\\MasterDataService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F294172-89FA-4B25-A2D8-DB5DA39C6141}|UnitTests\\UnitTests.csproj|c:\\projects\\masterdataservice\\unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F294172-89FA-4B25-A2D8-DB5DA39C6141}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D7DB86-EE57-F5FF-2EF2-4F75CDBC409A}|src\\Infrastucture\\Infrastucture.csproj|c:\\projects\\masterdataservice\\src\\infrastucture\\infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62D7DB86-EE57-F5FF-2EF2-4F75CDBC409A}|src\\Infrastucture\\Infrastucture.csproj|solutionrelative:src\\infrastucture\\infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,14 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
-              "RelativeDocumentMoniker": "MasterDataService\\Program.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
-              "RelativeToolTip": "MasterDataService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T22:12:07.302Z",
+              "WhenOpened": "2026-07-09T23:04:51.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Infrastucture",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Infrastucture.csproj",
+              "RelativeDocumentMoniker": "src\\Infrastucture\\Infrastucture.csproj",
+              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Infrastucture.csproj",
+              "RelativeToolTip": "src\\Infrastucture\\Infrastucture.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-09T23:01:03.118Z",
               "EditorCaption": ""
             },
             {
@@ -52,6 +73,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
+              "RelativeDocumentMoniker": "MasterDataService\\Program.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
+              "RelativeToolTip": "MasterDataService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T22:12:07.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\Api\\Class1.cs",
               "RelativeDocumentMoniker": "Api\\Class1.cs",
@@ -62,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\Infrastucture\\Class1.cs",
               "RelativeDocumentMoniker": "Infrastucture\\Class1.cs",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
@@ -85,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\Application\\Class1.cs",
               "RelativeDocumentMoniker": "Application\\Class1.cs",
