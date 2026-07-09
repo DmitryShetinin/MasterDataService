@@ -1,0 +1,106 @@
+version: '3.8'
+
+services:
+  # ========== 1. ТВОЕ .NET API ==========
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: masterdata-api
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      # Подключение к PostgreSQL
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=MasterDataDb;Username=postgres;Password=postgres123
+      # Подключение к Kafka
+      - Kafka__BootstrapServers=kafka:9093
+      - Kafka__GroupId=masterdata-group
+    depends_on:
+      - postgres
+      - kafka
+    networks:
+      - app-network
+
+  # ========== 2. POSTGRESQL ==========
+  postgres:
+    image: postgres:15-alpine
+    container_name: masterdata-postgres
+    environment:
+      POSTGRES_DB: MasterDataDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  # ========== 3. KAFKA ==========
+  kafka:
+    image: apache/kafka:3.7.0
+    container_name: masterdata-kafka
+    ports:
+      - "9092:9092"   # Внешний доступ (с твоего компа)
+      - "9093:9093"   # Внутренний доступ (для контейнеров)
+    environment:
+      # Настройка адресов (важно!)
+      KAFKA_NODE_ID: 1
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_LISTENERS: INTERNAL://0.0.0.0:9093,EXTERNAL://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9093,EXTERNAL://localhost:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:29093
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_LOG_RETENTION_HOURS: 168
+      KAFKA_LOG_SEGMENT_BYTES: 1073741824
+      KAFKA_LOG_RETENTION_CHECK_INTERVAL_MS: 300000
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    networks:
+      - app-network
+
+  # ========== 4. KAFKA-UI (ТВОЙ ЛЮБИМЫЙ) ==========
+  kafka-ui:
+    image: kafbat/kafka-ui:main
+    container_name: masterdata-kafka-ui
+    ports:
+      - "8080:8080"
+    environment:
+      DYNAMIC_CONFIG_ENABLED: "true"
+      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9093
+    depends_on:
+      - kafka
+    networks:
+      - app-network
+
+  # ========== 5. REDIS ==========
+  redis:
+    image: redis:7.2-alpine
+    container_name: masterdata-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - app-network
+
+# ========== VOLUMES (Данные сохраняются) ==========
+volumes:
+  postgres_data:
+  kafka_data:
+  redis_data:
+
+# ========== NETWORKS ==========
+networks:
+  app-network:
+    driver: bridge
