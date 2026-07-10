@@ -11,11 +11,19 @@
 using System;
 using System.Reflection;
 
+<<<<<<< HEAD
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("7c87aebe-2576-4d36-85cf-a89d820aa79a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterDataService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad2e64d03a5b86bb3e5fe959a648d55e27ece81")]
+=======
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cad29b88-f2e5-444c-9fb2-d9f9ee2bfd52")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MasterDataService")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1856868ca4fa48cd90243e3940d7eae28fd07399")]
+>>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
 [assembly: System.Reflection.AssemblyProductAttribute("MasterDataService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterDataService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
