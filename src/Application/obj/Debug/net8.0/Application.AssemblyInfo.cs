@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad2e64d03a5b86bb3e5fe959a648d55e27ece81")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1856868ca4fa48cd90243e3940d7eae28fd07399")]
+>>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
 [assembly: System.Reflection.AssemblyProductAttribute("Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

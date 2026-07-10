@@ -70,6 +70,7 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+<<<<<<< HEAD
         }
       }
     },
@@ -135,6 +136,8 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+=======
+>>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
         }
       }
     }

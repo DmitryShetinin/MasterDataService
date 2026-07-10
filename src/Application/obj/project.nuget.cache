@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "/FW8B/BeLyA=",
+=======
+  "dgSpecHash": "9keF30XFXTg=",
+>>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
   "success": true,
   "projectFilePath": "C:\\projects\\MasterDataService\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [],

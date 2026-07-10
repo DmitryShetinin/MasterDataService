@@ -1,0 +1,12 @@
+C:\projects\MasterDataService\src\Application\bin\Debug\net8.0\Application.deps.json
+C:\projects\MasterDataService\src\Application\bin\Debug\net8.0\Application.dll
+C:\projects\MasterDataService\src\Application\bin\Debug\net8.0\Application.pdb
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.dll
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\refint\Application.dll
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.pdb
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\ref\Application.dll
