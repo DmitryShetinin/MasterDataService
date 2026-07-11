@@ -10,3 +10,7 @@ C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.dll
 C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\refint\Application.dll
 C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.pdb
 C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\ref\Application.dll
+C:\projects\MasterDataService\src\Application\bin\Debug\net8.0\Domain.dll
+C:\projects\MasterDataService\src\Application\bin\Debug\net8.0\Domain.pdb
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\projects\MasterDataService\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date

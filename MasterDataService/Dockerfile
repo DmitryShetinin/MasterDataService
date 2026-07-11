@@ -15,6 +15,7 @@ WORKDIR /src
 COPY ["MasterDataService/MasterDataService.csproj", "MasterDataService/"]
 COPY ["src/Application/Application.csproj", "src/Application/"]
 COPY ["src/Domain/Domain.csproj", "src/Domain/"]
+COPY ["src/Infrastructure/Infrastructure.csproj", "src/Infrastructure/"]
 RUN dotnet restore "./MasterDataService/MasterDataService.csproj"
 COPY . .
 WORKDIR "/src/MasterDataService"

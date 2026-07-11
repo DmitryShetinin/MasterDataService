@@ -1,59 +1,46 @@
+using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// 1. Регистрация контроллеров
+builder.Services.AddControllers();
+
+// 2. (Опционально) Swagger для тестирования
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddHealthChecks()
-
-    .AddDbContextCheck<ApplicationDbContext>()  // �������� PostgreSQL
-    .AddRedis("redis:6379")                      // �������� Redis
-    .AddKafka(new KafkaOptions
-    {
-        BootstrapServers = "kafka:9093"
-    });
 
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Репозитории
+builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
+Console.WriteLine("asdasdasd");
+// Сервисы
+builder.Services.AddScoped<IEquipmentService, EquipmentService>();
+//builder.Services.AddScoped<ITagService, TagService>();
+//builder.Services.AddScoped<IFormulaService, FormulaService>();
+//builder.Services.AddScoped<IMeasurementUnitService, MeasurementUnitService>();
+
+// AutoMapper
+builder.Services.AddAutoMapper(cfg => cfg.AddProfile<MappingProfile>());
+
+
+ 
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 3. (Опционально) Swagger UI
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-
-
- 
-
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+// 4. Маппинг контроллеров (роутинг)
+app.MapControllers();
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
