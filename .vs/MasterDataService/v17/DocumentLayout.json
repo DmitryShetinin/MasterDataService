@@ -3,86 +3,28 @@
   "WorkspaceRootPath": "C:\\projects\\MasterDataService\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|c:\\projects\\masterdataservice\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|solutionrelative:src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D7DB86-EE57-F5FF-2EF2-4F75CDBC409A}|src\\Infrastucture\\Infrastucture.csproj|c:\\projects\\masterdataservice\\src\\infrastucture\\infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{62D7DB86-EE57-F5FF-2EF2-4F75CDBC409A}|src\\Infrastucture\\Infrastucture.csproj|solutionrelative:src\\infrastucture\\infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A737D91-12E2-680B-C50B-F84A0E4EF1A0}|src\\UnitTests\\UnitTests.csproj|c:\\projects\\masterdataservice\\src\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6A737D91-12E2-680B-C50B-F84A0E4EF1A0}|src\\UnitTests\\UnitTests.csproj|solutionrelative:src\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCCCEDB9-3E18-4242-BF9D-B7ABD55C0691}|API Tests\\API Tests.csproj|c:\\projects\\masterdataservice\\api tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCCCEDB9-3E18-4242-BF9D-B7ABD55C0691}|API Tests\\API Tests.csproj|solutionrelative:api tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8165ABF1-2543-441B-82D3-5041BE3E7E91}|IntegrationTests\\IntegrationTests.csproj|c:\\projects\\masterdataservice\\integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8165ABF1-2543-441B-82D3-5041BE3E7E91}|IntegrationTests\\IntegrationTests.csproj|solutionrelative:integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\persistence\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\persistence\\configurations\\equipmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\configurations\\equipmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|src\\Domain\\Domain.csproj|c:\\projects\\masterdataservice\\src\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|src\\Domain\\Domain.csproj|c:\\projects\\masterdataservice\\src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\masterdataservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\masterdataservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
     },
     {
       "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\MasterDataService\\UnitTests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UnitTests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\MasterDataService\\Infrastucture\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastucture\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|c:\\projects\\masterdataservice\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|solutionrelative:src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
+      "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\Configurations\\PlantConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastucture\\Persistence\\Configurations\\PlantConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\contollers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\contollers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastucture\\Persistence\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\Configurations\\MeasurementUnitConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastucture\\Persistence\\Configurations\\MeasurementUnitConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\interfaces\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\interfaces\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,75 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "Application",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "src\\Application\\Application.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Application\\Application.csproj",
-              "RelativeToolTip": "src\\Application\\Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Title": "MasterDataService",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\MasterDataService.csproj",
+              "RelativeDocumentMoniker": "MasterDataService\\MasterDataService.csproj",
+              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\MasterDataService.csproj",
+              "RelativeToolTip": "MasterDataService\\MasterDataService.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T23:16:23.079Z",
-=======
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Persistence\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Persistence\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Persistence\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAewA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:47:04.411Z",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-<<<<<<< HEAD
-              "Title": "UnitTests",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\UnitTests\\UnitTests.csproj",
-              "RelativeDocumentMoniker": "src\\UnitTests\\UnitTests.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\UnitTests\\UnitTests.csproj",
-              "RelativeToolTip": "src\\UnitTests\\UnitTests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T23:09:55.707Z",
-=======
-              "Title": "EquipmentConfiguration.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Persistence\\Configurations\\EquipmentConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\Configurations\\EquipmentConfiguration.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Persistence\\Configurations\\EquipmentConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Persistence\\Configurations\\EquipmentConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:43:30.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Class1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Domain\\Class1.cs",
-              "RelativeToolTip": "src\\Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:44:07.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:43:22.583Z",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
+              "WhenOpened": "2026-07-11T05:52:42.907Z",
               "EditorCaption": ""
             },
             {
@@ -174,210 +55,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-<<<<<<< HEAD
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\API Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "API Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\API Tests\\UnitTest1.cs",
-              "RelativeToolTip": "API Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T23:09:39.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\IntegrationTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "IntegrationTests\\UnitTest1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\IntegrationTests\\UnitTest1.cs",
-              "RelativeToolTip": "IntegrationTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T23:09:10.87Z",
-=======
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:38:29.772Z",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-<<<<<<< HEAD
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\UnitTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "UnitTests\\UnitTest1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\UnitTests\\UnitTest1.cs",
-              "RelativeToolTip": "UnitTests\\UnitTest1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T23:04:51.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Infrastucture.csproj",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Infrastucture.csproj",
-              "RelativeDocumentMoniker": "src\\Infrastucture\\Infrastucture.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Infrastucture.csproj",
-              "RelativeToolTip": "src\\Infrastucture\\Infrastucture.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T23:01:03.118Z",
-=======
+              "DocumentIndex": 2,
               "Title": "Infrastructure",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
               "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "src\\Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-10T02:37:54.97Z",
+              "WhenOpened": "2026-07-11T05:47:49.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Application",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "src\\Application\\Application.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Application\\Application.csproj",
-              "RelativeToolTip": "src\\Application\\Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-10T02:27:13.702Z",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Dockerfile",
+              "RelativeDocumentMoniker": "MasterDataService\\Dockerfile",
+              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Dockerfile",
+              "RelativeToolTip": "MasterDataService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-11T05:41:36.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Contollers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "MasterDataService\\Contollers\\EquipmentController.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Contollers\\EquipmentController.cs",
+              "RelativeToolTip": "MasterDataService\\Contollers\\EquipmentController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T04:46:04.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-<<<<<<< HEAD
-=======
-              "Title": "Domain",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "src\\Domain\\Domain.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Domain\\Domain.csproj",
-              "RelativeToolTip": "src\\Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-10T02:27:10.259Z",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wCMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T04:46:26.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MasterDataService",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\MasterDataService.csproj",
-              "RelativeDocumentMoniker": "MasterDataService\\MasterDataService.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\MasterDataService.csproj",
-              "RelativeToolTip": "MasterDataService\\MasterDataService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-10T02:27:06.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
               "RelativeDocumentMoniker": "MasterDataService\\Program.cs",
               "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
               "RelativeToolTip": "MasterDataService\\Program.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAAABAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAsAAAAaAAAAAAAAAA==",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:16:43.051Z",
+              "WhenOpened": "2026-07-10T09:45:27.62Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\Api\\Class1.cs",
-              "RelativeDocumentMoniker": "Api\\Class1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\Api\\Class1.cs",
-              "RelativeToolTip": "Api\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T22:00:33.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\Infrastucture\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastucture\\Class1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\Infrastucture\\Class1.cs",
-              "RelativeToolTip": "Infrastucture\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T21:59:40.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-=======
-              "DocumentIndex": 10,
-              "Title": "PlantConfiguration.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\Configurations\\PlantConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastucture\\Persistence\\Configurations\\PlantConfiguration.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\Configurations\\PlantConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastucture\\Persistence\\Configurations\\PlantConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T02:05:29.972Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Application\\Class1.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\Application\\Class1.cs",
-              "RelativeToolTip": "Application\\Class1.cs",
-=======
-              "DocumentIndex": 11,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastucture\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "src\\Infrastucture\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAMwBkAAAAFAAAAAAAAAA==",
->>>>>>> 927cf5b (feat: add PostgreSQL infrastructure and migrations)
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T01:31:31.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MeasurementUnitConfiguration.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\Configurations\\MeasurementUnitConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastucture\\Persistence\\Configurations\\MeasurementUnitConfiguration.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastucture\\Persistence\\Configurations\\MeasurementUnitConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastucture\\Persistence\\Configurations\\MeasurementUnitConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T01:26:15.078Z"
             }
           ]
         }

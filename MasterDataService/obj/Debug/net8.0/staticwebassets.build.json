@@ -1,1 +1,12 @@
-{"Version":1,"Hash":"18uHvuACjKmbb1iT80nDeIga22TpKTVRH0dNYnudohE=","Source":"MasterDataService","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "ybT59tW141RsLH/iAPsf3YKW9yPHZB7v/c6eicR0QsQ=",
+  "Source": "MasterDataService",
+  "BasePath": "_content/MasterDataService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
