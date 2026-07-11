@@ -47,15 +47,31 @@ services:
       - "9092:9092"   # Внешний доступ (с твоего компа)
       - "9093:9093"   # Внутренний доступ (для контейнеров)
     environment:
-      # Настройка адресов (важно!)
+      # Уникальный ID узла
       KAFKA_NODE_ID: 1
-      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
-      KAFKA_LISTENERS: INTERNAL://0.0.0.0:9093,EXTERNAL://0.0.0.0:9092
-      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9093,EXTERNAL://localhost:9092
-      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
-      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:29093
+      # Режим KRaft – обе роли (контроллер и брокер)
       KAFKA_PROCESS_ROLES: broker,controller
+      
+      # Контроллерный listener (для внутреннего общения между контроллерами)
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      
+      # Сопоставление имён listener'ов с протоколами
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      
+      # Список слушаемых портов (внутри контейнера)
+      # CONTROLLER — для контроллера, INTERNAL — для брокеров между собой, EXTERNAL — для внешних клиентов
+      KAFKA_LISTENERS: CONTROLLER://0.0.0.0:9094,INTERNAL://0.0.0.0:9093,EXTERNAL://0.0.0.0:9092
+      
+      # Рекламируемые адреса (для клиентов и других брокеров)
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9093,EXTERNAL://localhost:9092
+      
+      # Какой listener использовать для общения между брокерами (не контроллер)
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      
+      # Участники кворума (голосования) — здесь указываем себя, порт должен совпадать с CONTROLLER listener
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9094
+      
+      # Настройки репликации (для одного брокера — 1)
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1

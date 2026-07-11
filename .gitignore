@@ -1,4 +1,4 @@
-cat > .gitignore << 'EOF'
+ 
 # Visual Studio
 .vs/
 *.suo
@@ -54,4 +54,4 @@ TestResults/
 # Node.js (если есть)
 node_modules/
 npm-debug.log
-EOF
+ 
