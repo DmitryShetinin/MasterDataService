@@ -1,21 +1,24 @@
 ﻿// Application/Services/EquipmentService.cs
 using AutoMapper;
 using Domain.Entities;
+using MediatR;
 
 public class EquipmentService : IEquipmentService
 {
     private readonly IRepository<Equipment> _equipmentRepo;
-    private readonly IRepository<Plant> _plantRepo; // чтобы проверить существование Plant
+    private readonly IRepository<Plant> _plantRepo;  
     private readonly IMapper _mapper;
+    private readonly IMediator _mediator;
 
     public EquipmentService(
         IRepository<Equipment> equipmentRepo,
         IRepository<Plant> plantRepo,
-        IMapper mapper)
+        IMapper mapper, IMediator mediator)
     {
         _equipmentRepo = equipmentRepo;
         _plantRepo = plantRepo;
         _mapper = mapper;
+        _mediator = mediator;
     }
 
     public async Task<IEnumerable<EquipmentResponseDto>> GetAllAsync()
@@ -41,7 +44,7 @@ public class EquipmentService : IEquipmentService
         equipment.Id = Guid.NewGuid();
         await _equipmentRepo.AddAsync(equipment);
         await _equipmentRepo.SaveChangesAsync();
-
+        await _mediator.Publish(new CreateEquipmentEvent(dto.PlantId));
         return _mapper.Map<EquipmentResponseDto>(equipment);
     }
 
@@ -55,7 +58,9 @@ public class EquipmentService : IEquipmentService
         _mapper.Map(dto, equipment); // если AutoMapper настроен на обновление
         _equipmentRepo.Update(equipment);
         await _equipmentRepo.SaveChangesAsync();
-
+        await _mediator.Publish(new UpdateEquipmentEvent(equipment.Id,
+                                                         equipment.PlantId,
+                                                         equipment.Name));
         return _mapper.Map<EquipmentResponseDto>(equipment);
     }
 
@@ -67,6 +72,9 @@ public class EquipmentService : IEquipmentService
 
         _equipmentRepo.Delete(equipment);
         await _equipmentRepo.SaveChangesAsync();
+        await _mediator.Publish(new DeleteEquipmentEvent(equipment.Id, 
+                                                         equipment.PlantId, 
+                                                         equipment.Name));
         return true;
     }
 }

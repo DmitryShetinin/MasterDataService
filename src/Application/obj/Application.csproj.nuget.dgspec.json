@@ -57,6 +57,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.2.0, )"
             }
           },
           "imports": [
@@ -124,6 +128,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -5,6 +5,11 @@ public class Equipment
 {
     public Guid Id { get; set; }
 
+
+
+
+
+   
     public Guid PlantId { get; set; }
 
     public string Name { get; set; } = default!;

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\projects\\MasterDataService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\masterdataservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\masterdataservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\messaging\\kafkamessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\messaging\\kafkamessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|c:\\projects\\masterdataservice\\src\\application\\handlers\\createequipmenteventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|solutionrelative:src\\application\\handlers\\createequipmenteventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|c:\\projects\\masterdataservice\\masterdataservice\\contollers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22DA0BB1-A8E1-4C29-B8EC-6E4669E9CEAC}|MasterDataService\\MasterDataService.csproj|solutionrelative:masterdataservice\\contollers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\projects\\masterdataservice\\src\\infrastructure\\interfaces\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\interfaces\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|c:\\projects\\masterdataservice\\src\\application\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MasterDataService",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\MasterDataService.csproj",
-              "RelativeDocumentMoniker": "MasterDataService\\MasterDataService.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\MasterDataService.csproj",
-              "RelativeToolTip": "MasterDataService\\MasterDataService.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-11T05:52:42.907Z",
+              "Title": "KafkaMessageProducer.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T09:18:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Application\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\EquipmentService.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\src\\Application\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\EquipmentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T09:03:45.692Z",
               "EditorCaption": ""
             },
             {
@@ -55,65 +60,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Infrastructure",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "src\\Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-11T05:47:49.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Dockerfile",
-              "RelativeDocumentMoniker": "MasterDataService\\Dockerfile",
-              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Dockerfile",
-              "RelativeToolTip": "MasterDataService\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-07-11T05:41:36.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EquipmentController.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Contollers\\EquipmentController.cs",
-              "RelativeDocumentMoniker": "MasterDataService\\Contollers\\EquipmentController.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Contollers\\EquipmentController.cs",
-              "RelativeToolTip": "MasterDataService\\Contollers\\EquipmentController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwCsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T04:46:04.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\projects\\MasterDataService\\src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Interfaces\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA5wCMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T04:46:26.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CreateEquipmentEventHandler.cs",
+              "DocumentMoniker": "C:\\projects\\MasterDataService\\src\\Application\\Handlers\\CreateEquipmentEventHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Handlers\\CreateEquipmentEventHandler.cs",
+              "ToolTip": "C:\\projects\\MasterDataService\\src\\Application\\Handlers\\CreateEquipmentEventHandler.cs",
+              "RelativeToolTip": "src\\Application\\Handlers\\CreateEquipmentEventHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA/wCAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T08:49:25.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
               "RelativeDocumentMoniker": "MasterDataService\\Program.cs",
               "ToolTip": "C:\\projects\\MasterDataService\\MasterDataService\\Program.cs",
               "RelativeToolTip": "MasterDataService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-10T09:45:27.62Z",
               "EditorCaption": ""

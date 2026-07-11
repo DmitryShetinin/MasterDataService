@@ -16,3 +16,5 @@ C:\projects\MasterDataService\src\Infrastructure\obj\Debug\net8.0\refint\Infrast
 C:\projects\MasterDataService\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\projects\MasterDataService\src\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\projects\MasterDataService\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\projects\MasterDataService\src\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\projects\MasterDataService\src\Infrastructure\bin\Debug\net8.0\Application.pdb

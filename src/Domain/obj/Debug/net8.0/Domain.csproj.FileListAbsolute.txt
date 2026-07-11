@@ -10,3 +10,4 @@ C:\projects\MasterDataService\src\Domain\obj\Debug\net8.0\Domain.dll
 C:\projects\MasterDataService\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\projects\MasterDataService\src\Domain\obj\Debug\net8.0\Domain.pdb
 C:\projects\MasterDataService\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\projects\MasterDataService\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
