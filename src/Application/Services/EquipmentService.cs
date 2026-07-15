@@ -6,7 +6,7 @@ using MediatR;
 public class EquipmentService : IEquipmentService
 {
     private readonly IRepository<Equipment> _equipmentRepo;
-    private readonly IRepository<Plant> _plantRepo;  
+    private readonly IRepository<Plant> _plantRepo;
     private readonly IMapper _mapper;
     private readonly IMediator _mediator;
 
@@ -42,9 +42,13 @@ public class EquipmentService : IEquipmentService
 
         var equipment = _mapper.Map<Equipment>(dto);
         equipment.Id = Guid.NewGuid();
+
+
+
+
         await _equipmentRepo.AddAsync(equipment);
         await _equipmentRepo.SaveChangesAsync();
-        await _mediator.Publish(new CreateEquipmentEvent(dto.PlantId));
+        await _mediator.Publish(new CreateEquipmentEvent(dto.PlantId, Name: "Equipment was created"));
         return _mapper.Map<EquipmentResponseDto>(equipment);
     }
 
@@ -60,7 +64,7 @@ public class EquipmentService : IEquipmentService
         await _equipmentRepo.SaveChangesAsync();
         await _mediator.Publish(new UpdateEquipmentEvent(equipment.Id,
                                                          equipment.PlantId,
-                                                         equipment.Name));
+                                                         Name: "Equipment was updated"));
         return _mapper.Map<EquipmentResponseDto>(equipment);
     }
 
@@ -72,9 +76,9 @@ public class EquipmentService : IEquipmentService
 
         _equipmentRepo.Delete(equipment);
         await _equipmentRepo.SaveChangesAsync();
-        await _mediator.Publish(new DeleteEquipmentEvent(equipment.Id, 
-                                                         equipment.PlantId, 
-                                                         equipment.Name));
+        await _mediator.Publish(new DeleteEquipmentEvent(equipment.Id,
+                                                         equipment.PlantId,
+                                                         Name: "Equipment was deleted"));
         return true;
     }
 }
