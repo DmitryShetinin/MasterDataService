@@ -19,9 +19,9 @@ builder.Services.AddMediatR(cfg =>
 var kafkaConfig = builder.Configuration.GetSection("Kafka").Get<ProducerConfig>()
     ?? new ProducerConfig
     {
-        BootstrapServers = "localhost:9092", // или из переменных окружения
-        ClientId = "master-data-service",
-       
+      BootstrapServers = "localhost:9092", // или из переменных окружения
+      ClientId = "master-data-service",
+
     };
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -44,16 +44,18 @@ builder.Services.AddScoped<IMessageProducer, KafkaMessageProducer>();
 builder.Services.AddAutoMapper(cfg => cfg.AddProfile<MappingProfile>());
 
 
- 
+
 
 var app = builder.Build();
 
+Console.WriteLine($"ENV: {app.Environment.EnvironmentName}");
+
+Console.WriteLine(app.Environment.IsDevelopment());
 // 3. (Опционально) Swagger UI
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
+
+
 
 app.UseHttpsRedirection();
 
